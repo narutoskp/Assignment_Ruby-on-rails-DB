@@ -1,0 +1,9 @@
+<p>
+  <strong>Name:</strong>
+  <%= customer.namecustomer %>
+</p>
+ <p>
+  <%= link_to 'Delete', [customer.article, customer],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
